@@ -1,4 +1,3 @@
-
 import cmath
 
 a = complex(input('Enter a\n'))
@@ -9,8 +8,8 @@ if a and b and c:
     if d:
         x1 = (-b+cmath.sqrt(d))/(2*a)
         x2 = (-b-cmath.sqrt(d))/(2*a)
-        print ('x1 =',x1)
-        print ('x2 =',x2)
+        print (f'x1 ={x1:.3f}')
+        print (f'x2 ={x2:.3f}')
     else:
         x = (-b)/(2*a)
         print ('x = ', x)
@@ -21,8 +20,9 @@ elif a and b and c == 0:
 elif a and b == 0 and c:
         x1 = cmath.sqrt(-c/a)
         x2 = -cmath.sqrt(-c/a)
-        print ('x1 =',x1)
-        print ('x2 =',x2)
+        print (f'x1 ={x1:.3f}')
+        print (f'x2 ={x2:.3f}')
 
 else:
     print ('Error')
+

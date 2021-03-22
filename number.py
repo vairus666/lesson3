@@ -1,5 +1,4 @@
-#The frequency of using digits in a range of numbers.
-
+#Выводит частоту вхождения цифр в диапазоне
 x = int(input("Enter start of range\n"))
 y = int(input("Enter end of range\n"))
 num0 = num1 = num2 = num3 = num4 = num5 = num6 = num7 = num8 = num9 = k = 0
@@ -39,4 +38,4 @@ while k < o:
         num9 += 1
 
 
-print(f'0 = {num0}, 1 = {num1}, 2 = {num2}, 3 = {num3}, 4 = {num4}, 5 = {num5}, 6 = {num6}, 7 = {num7}, 8 = {num8}, 9 = {num9}') 
+print(f'0 = {num0}, 1 = {num1}, 2 = {num2}, 3 = {num3}, 4 = {num4}, 5 = {num5} 6 = {num6}, 7 = {num7}, 8 = {num8}, 9 = {num9}') 
